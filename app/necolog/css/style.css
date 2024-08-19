@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+        font-family:sans-serif;
+    }
+header{
+    width: 100%;
+    height: auto;
+    background-color:burlywood;
+   
+}
+.center{
+    width: 100%;
+    height: 300px;
+    background-image: url(/necolog/img/bell.jpg);
+    background-position: center;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+    color:rgb(250, 255, 220);
+    padding-left: 10px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    color:floralwhite;
+    opacity: 0.7;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.container{
+    background-color:honeydew;
+    background-size: cover;
+    background-attachment: fixed;         /* 固定 */
+    background-position: center center;   /* 縦横中央 */
+
+}
+.card-group{
+    margin:0 auto;
+    width: 100%;
+    max-width:1200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:left;
+
+}
+.card{
+    margin:1%;
+    width: 30vw;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,.2);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+}
+  @media screen and (max-width: 768px) {
+    .card {
+        width:48%;
+
+    }
+  }
+  @media screen and (min-width: 961px) {
+    .card {
+        width:23%;
+
+    }
+  }
+
+.card__imgframe{
+    width: 100%;
+    padding-top: 56.25%;
+    background: #bbb;
+    box-sizing: border-box;
+  }
+.card__textbox{
+    width: 100%;
+    padding: 20px 18px;
+    background: #fff;
+    box-sizing: border-box;
+  }
+.card__textbox > * + *{
+    margin-top: 10px;
+  }
+.card__titletext{
+    font-size: clamp(20px, 1.8vw, 30px);
+    font-weight: bold;
+    line-height: 125%;
+    text-align: center;
+    
+  }
+.card__overviewtext{
+    font-size: clamp(13px, 1.8vw, 16px);
+    line-height: 150%;
+    text-align: center;
+
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .formarea{
+    text-align: center;
+  }
+  .textarea{
+    margin:0 auto;
+    width: 100%;
+    max-width:1200px;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content:space-around;
+
+  }
+  .form{
+    display: inline-block;
+  }
+  .button{
+    height: 30px;
+    text-align: center;
+  }
+  footer{
+    height: 40px;
+    width: 100%;
+    background-color:burlywood;
+
+  }

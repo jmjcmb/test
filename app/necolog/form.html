@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/form.css">
+
+</head>
+
+<body>
+    <header><div class="formtop">ねこを新しく登録する</div></header>
+    <div class="formarea">
+        <p class="textarea">
+            <div class="form">
+             <label for="name">名前:</label>
+             <input name="name" id="name" type="text">
+            </div>
+
+            <div class="form">
+                <label for="color">柄:</label>
+             <input name="color" id="color" type="text">
+            </div>
+
+            <div class="form">
+                <label for="age">年齢:</label>
+             <input name="age" id="age" type="number">
+            </div>
+
+            <div class="form">
+                <label for="from">出身:</label>
+             <input name="from" id="from" type="text">
+            </div>
+
+            <div class="form">
+                <label for="height">身長:</label>
+              <input name="height" id="height" type="number">
+            </div>
+
+            <div class="form">
+                <label for="weight">体重:</label>
+              <input name="weight" id="weight" type="number">
+            </div>
+
+            <div class="form">
+                <label for="comment">この子はひとことで言うと？:</label>
+              <input name="comment" id="comment" type="text">
+            </div>
+        </p>
+        
+        <input type="button" class="button" onclick="addName()" value="登録する" >
+
+    </div>
+
+
+    <script src="test.js"></script>
+</body>
+</html>
